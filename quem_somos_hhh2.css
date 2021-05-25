@@ -1,0 +1,424 @@
+
+corpo {
+    overflow-x: oculto;
+    overflow-y: scroll;
+}
+
+.principios {
+    flutuar: esquerda;
+}
+
+.principios img {
+    preenchimento: 12px;
+    display: bloco embutido;
+    largura máxima: 30%;
+    flutuar: esquerda;
+}
+
+.principios p {
+    tamanho da fonte: 22px;
+    peso da fonte: 400;
+    padding-top: 10px;
+    acolchoamento inferior: 10px;
+}
+
+
+
+
+.pcont {
+    display: flex;
+    justify-content: espaço-uniformemente;
+    alinhar-itens: centro;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    flutuar: esquerda;
+}
+
+.pcont .pbox {
+    largura: 300px;
+    altura: 180px;
+    raio da borda: 10px;
+    cor de fundo: branco;
+    transição: .3s com facilidade de entrada e saída;
+    posição: relativa;
+    sombra da caixa: plano de fundo de 2px 2px 6px;
+
+    
+    /* Link */
+}
+
+
+.pcont .pbox .pboxContent {
+    display: flex;
+    direção flexível: coluna;
+    justificar-conteúdo: centro;
+    preenchimento: 6px;
+}
+
+.pcont .pbox .pboxContent .icon {
+    cor: # 00dd98;
+    tamanho da fonte: 36px;
+    preenchimento: 6px;
+    flutuar: esquerda;
+    alinhar conteúdo: centro;
+    alinhamento de texto: centro;
+
+}
+
+.pcont .pbox .pboxContent .title {
+    tamanho da fonte: 20px;
+    cor: # 00dd98;
+    intensidade da fonte: Negrito;
+    alinhamento de texto: centro;
+
+}
+
+.pcont .pbox .pboxContent .desc {
+    cor: # 000;
+    tamanho da fonte: 14px;
+    altura da linha: 12px;
+    altura: 20%;
+    peso da fonte: 400;
+    alinhamento de texto: centro;
+}
+
+.pcont .pbox a {
+    posição: absoluta;
+    largura: 100%;
+    altura: 100%;
+    topo: 0;
+    esquerda: 0;
+    eventos de ponteiro: nenhum;
+}
+
+.pcont .pbox: hover {
+    fundo: gradiente linear (130deg, # 00dd98 0%, #  100%);
+    sombra da caixa: nenhum;
+}
+
+.pcont .pbox: hover .icon,
+.pcont .pbox: hover .title {
+    cor branca;
+    transição: .3s com facilidade de entrada e saída;
+}
+
+.pcont .pbox: hover .desc {
+    cor preta;
+    transição: .3s com facilidade de entrada e saída;
+}
+
+
+
+
+section.module.parallax {
+    altura: 420px;
+    posição de fundo: 50% 50%;
+    repetição de fundo: sem repetição;
+    anexo de fundo: fixo;
+    tamanho do fundo: capa;
+}
+
+section.module.parallax-1 {
+    imagem de fundo: url ("https://producao.cenpec.org.br/wp-content/uploads/2019/04/q_parallax1.jpg");
+}
+
+
+
+section.module.parallax-2 {
+    imagem de fundo: url ("https://producao.cenpec.org.br/wp-content/uploads/2019/04/q_parallax2.jpg");
+    preenchimento: 60px 200px 0px 200px;
+    margem superior: 80px;
+    peso da fonte: 600;
+}
+
+section.module.parallax-2 h1 {
+    cor: #ffffff;
+    acolchoamento inferior: 20px;
+}
+
+section.module.parallax-2 img {
+    sombra da caixa: 2px 2px 12px;
+    margem direita: 20px;
+    largura mínima: 300px;
+    margin-top: -30px;
+    display: bloco embutido;
+}
+
+section.module.parallax-2 p {
+    alinhamento de texto: direita;
+}
+
+
+
+
+section.module.parallax-3 {
+    imagem de fundo: url ("https://producao.cenpec.org.br/wp-content/uploads/2019/04/q_parallax3.jpg");
+    preenchimento: 60px 200px 0px 200px;
+    margem superior: 80px;
+    peso da fonte: 600;
+}
+
+section.module.parallax-3 h1 {
+    cor: #ffffff;
+    acolchoamento inferior: 20px;
+}
+
+section.module.parallax-3 img {
+    sombra da caixa: 2px 2px 12px # 000;
+    margem direita: 20px;
+    largura mínima: 300px;
+    margin-top: -30px;
+    display: bloco embutido;
+}
+
+section.module.parallax-3 p {
+    alinhamento de texto: direita;
+}
+
+
+
+
+
+
+.qpartcontainer {
+    largura máxima: 960px;
+    margem: 0 automático;
+    margem superior: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+#qpart_box {
+    imagem de fundo: url ("../../ imagens / q_map_card.png");
+    tamanho do fundo: 100%;
+    largura: 360px;
+    altura: 180px;
+    repetição de fundo: sem repetição;
+    preenchimento: 10px;
+    posição: absoluta;
+    transformar: traduzir (0%, 250px);
+    sombra da caixa: plano de fundo de 2px 2px 6px;
+    raio da borda: 20px; 
+}
+
+
+
+
+.qpcontainer {
+    largura máxima: 960px;
+    margem: 0 automático;
+
+}
+
+
+#boxvideo {
+    cor de fundo: # a4cc00;
+    cor branca;
+    / * superior: 30px; * /
+    / * à esquerda: -10px; * /
+    largura: 600px;
+    altura: 460px;
+    posição: absoluta;
+    / * não é mais relativo * /
+    / * índice z: 5; Já está empilhado acima, se posicionado. Necessário se outros elementos posicionados estiverem lá (um valor de 1 seria suficiente) * /
+    transformar: traduzir (25%, -20px);
+    / * substitui o posicionamento relativo (esquerda e superior => X e Y) * /
+}
+
+
+#videoit {
+    alinhar conteúdo: centro;
+    alinhamento de texto: centro;
+    / * superior: 30px; * /
+    / * à esquerda: -10px; * /
+    largura: 640px;
+    altura: 360px;
+    posição: absoluta;
+    / * não é mais relativo * /
+    / * índice z: 5; Já está empilhado acima, se posicionado. Necessário se outros elementos posicionados estiverem lá (um valor de 1 seria suficiente) * /
+    transformar: traduzir (-3%, 50px);
+    / * substitui o posicionamento relativo (esquerda e superior => X e Y) * /
+}
+
+
+
+
+
+.econtainer {
+    display: flex;
+    justify-content: espaço-uniformemente;
+    alinhar-itens: centro;
+    flex-wrap: wrap;
+    margem inferior: 6vh;
+    perspectiva: 600px;
+}
+
+.econtainer .ebox {
+    largura: 180px;
+    altura: 240px;
+    raio da borda: 10px;
+    cor de fundo: branco;
+    posição: relativa;
+    estilo de borda: sólido;
+    largura da borda: 1px;
+    border-color: # 00dd98;
+    transição: transformar 0,6s;
+    estilo de transformação: preserve-3d;
+
+
+}
+
+.econtainer .ebox .eboxContent {
+    display: flex;
+    direção flexível: coluna;
+    justificar-conteúdo: centro;
+}
+
+.econtainer .ebox .eboxContent .eboxback {
+    display: flex;
+    direção flexível: coluna;
+    justificar-conteúdo: centro;
+    cor de fundo: # 00dd98;
+    largura: 180px;
+    altura: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.econtainer .ebox .eboxContent .eboxback .eboxpic {
+    cor de fundo: #fff;
+    estilo de borda: sólido;
+    largura da borda: 3px;
+    border-color: # 00dd98;
+    transformar: traduzir (40px, 55px);
+    altura: 100px;
+    largura: 100px;
+    raio da borda: 50%;
+}
+
+
+.econtainer .ebox .eboxContent .title {
+    tamanho da fonte: 16px;
+    cor: # 000;
+    preenchimento: 12px;
+    alinhamento de texto: centro;
+    margem superior: 50px;
+}
+
+.econtainer .ebox .eboxContent .title2 {
+    tamanho da fonte: 16px;
+    cor: # 000;
+    preenchimento: 12px;
+    alinhamento de texto: centro;
+    margin-top: 0px;
+}
+
+
+.econtainer .ebox .eboxContent .desc {
+    cor: # 000;
+    tamanho da fonte: 12px;
+    altura da linha: 14px;
+    preenchimento: 12px;
+}
+
+.econtainer .ebox a {
+    posição: absoluta;
+    topo: 0;
+    esquerda: 0;
+}
+
+.econtainer .ebox: hover {
+    cursor: ponteiro;
+}
+
+.econtainer .ebox: hover .title {
+    cor preta;
+    transição: .3s com facilidade de entrada e saída;
+}
+
+.econtainer .ebox: hover .desc {
+    cor preta;
+    transição: .3s com facilidade de entrada e saída;
+}
+
+
+
+.flip-card: hover .flip-card-inner {
+    transformar: rotateY (180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    posição: absoluta;
+    visibilidade da face posterior: oculto;
+}
+
+.flip-card-front {
+    índice z: 2;
+}
+
+.flip-card-back {
+    transformar: rotateY (180deg);
+    índice z: 1;
+}
+
+h4 {
+tamanho da fonte: 1.5vw;
+}
+
+
+
+
+
+@media only screen e (max-width: 600px) {
+h4 {
+tamanho da fonte: 4vw;
+}
+    
+.qpcontainer {
+    largura máxima: 100%;
+    margem: 0 automático;
+
+}
+
+
+#boxvideo {
+    
+    cor branca;
+    / * superior: 30px; * /
+    / * à esquerda: -10px; * /
+    largura: 75%;
+    altura: automático;
+    posição: absoluta;
+    / * não é mais relativo * /
+    / * índice z: 5; Já está empilhado acima, se posicionado. Necessário se outros elementos posicionados estiverem lá (um valor de 1 seria suficiente) * /
+    transformar: traduzir (-10%, -20px);
+    / * substitui o posicionamento relativo (esquerda e superior => X e Y) * /
+}
+
+
+#videoit {
+    alinhar conteúdo: centro;
+    alinhamento de texto: centro;
+    / * superior: 30px; * /
+    / * à esquerda: -10px; * /
+    altura: 100%;
+    largura: 100%;
+    posição: relativa;
+    / * não é mais relativo * /
+    / * índice z: 5; Já está empilhado acima, se posicionado. Necessário se outros elementos posicionados estiverem lá (um valor de 1 seria suficiente) * /
+    transformar: traduzir (-10%, 50px);
+    / * substitui o posicionamento relativo (esquerda e superior => X e Y) * /
+}
+    
+    .identidade img {
+    max_width: 75%;
+    }
+    
+}
