@@ -55,7 +55,7 @@ body {
 }
 
 .pcont .pbox .pboxContent .icon {
-    color: #a4cc00;
+    color: #00dd98;
     font-size: 36px;
     padding: 6px;
     float: left;
@@ -66,7 +66,7 @@ body {
 
 .pcont .pbox .pboxContent .title {
     font-size: 20px;
-    color: #a4cc00;
+    color: #00dd98;
     font-weight: bold;
     text-align: center;
 
@@ -218,7 +218,7 @@ section.module.parallax-3 p {
 
 
 #boxvideo {
-    background-color: #a4cc00;
+    background-color: #00dd98;
     color: white;
     /* top:30px; */
     /* left: -10px; */
@@ -267,7 +267,7 @@ section.module.parallax-3 p {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-color: #a4cc00;
+    border-color: #00dd98;
     transition: transform 0.6s;
     transform-style: preserve-3d;
 
@@ -284,7 +284,7 @@ section.module.parallax-3 p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #a4cc00;
+    background-color: #00dd98;
     width: 180px;
     height: 100px;
     border-radius: 10px 10px 0 0;
@@ -294,7 +294,7 @@ section.module.parallax-3 p {
     background-color: #fff;
     border-style: solid;
     border-width: 3px;
-    border-color: #a4cc00;
+    border-color: #00dd98;
     transform: translate(40px, 55px);
     height: 100px;
     width: 100px;
